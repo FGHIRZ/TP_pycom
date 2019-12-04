@@ -22,6 +22,6 @@ while True:
     message_recu = s.recv(128)
     message_recu = str(message_recu, 'utf-8')
     #Affichage du message
-    if len(message_recu > 0):
+    if len(message_recu) > 0:
         print(message_recu)
     time.sleep(10)
